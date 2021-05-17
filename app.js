@@ -25,3 +25,5 @@ console.log(newItems);
 // it is common to use lodash with a variable called "_"
 // just as an example we used an array with nested array as values  and
 // used the flattendeep method to get back a new array
+
+// just a test if source control works
