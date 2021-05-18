@@ -35,3 +35,10 @@ console.log(newItems);
 // simply use the command npm install and through the info in our
 // package.json every neccesary repo or dependency will be automagically
 // installed and our code works
+
+// using nodemon in development , we can simply change the code and every
+// time we save it will automagically restart the app and we see the
+// effect of the changes right away, like a server in frontend dev
+// we can change the scripts in the package.json to simply give
+// shorter commands, in our case: start and dev for starting the app
+// and using nodemon for restarting and monitoring it
