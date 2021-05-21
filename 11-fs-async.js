@@ -3,8 +3,8 @@
 const { readFile, writeFile } = require('fs');
 console.log('start');
 
-// we need a call back function that runs when the processing of our methods
-// is complete
+// we need a call back function that runs when the processing of our
+// methods is complete
 
 readFile('./content/first.txt', 'utf-8', (err, result) => {
 	if (err) {
@@ -12,6 +12,7 @@ readFile('./content/first.txt', 'utf-8', (err, result) => {
 		return;
 	}
 	console.log(result);
+
 	const first = result;
 	readFile('./content/second.txt', 'utf-8', (err, result) => {
 		if (err) {

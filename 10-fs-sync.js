@@ -1,5 +1,5 @@
 // below is a different way to import a module (in our case fs - filesystem)
-// it is the same as const fs = require('fs) and than use the readFileSync Method
+// it is the same as const fs = require('fs') and than use the readFileSync Method
 // as fs.readFileSync , it is just an alternative way
 
 const { readFileSync, writeFileSync } = require('fs');
